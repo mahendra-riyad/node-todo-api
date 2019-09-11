@@ -1,12 +1,11 @@
 {
-  "name": "node-todo-api",
+  "name": "todo-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'npm test'"
+    "test-watch": "nodemon --exec \"npm test\""
   },
   "engines": {
     "node": "12.6.0"
@@ -24,5 +23,14 @@
     "mocha": "^3.0.2",
     "nodemon": "^1.19.1",
     "supertest": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahe-ndra/node-todo-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahe-ndra/node-todo-api/issues"
+  },
+  "homepage": "https://github.com/mahe-ndra/node-todo-api#readme",
+  "description": ""
 }
